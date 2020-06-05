@@ -1,0 +1,10 @@
+
+nav {
+    /* height: 50px; */
+    background-color: red;
+}
+
+.navbar-brand img {
+    fill: white;
+    height: 20px;
+}
