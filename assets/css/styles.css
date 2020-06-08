@@ -6,3 +6,8 @@
 .navbar-brand img {
     height: 20px;
 }
+
+#subs-btn {
+    font-size: 10px;
+    background-color: yellow;
+}
