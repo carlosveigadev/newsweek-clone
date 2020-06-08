@@ -46,8 +46,15 @@ main a:hover {
     margin-top: -1em;
 }
 
-#h-title:hover {
+#h-title:hover,
+.h-title-sponsor:hover {
+    color:black;
     text-decoration: underline red;
+}
+
+.h-title-sponsor{
+    color:black;
+    font-size: 18px;
 }
 
 .pos-div {
@@ -82,7 +89,7 @@ main a:hover {
     color: black;
 }
 
-#pink-h:hover {
+#text-debate:hover {
     color: #f92859
 }
 
@@ -132,3 +139,25 @@ div .vs::after {
     margin: 0 2em;
 }
 
+section.opinion h4 {
+    color: #55555a;
+}
+
+.sponsor {
+    width: 160px;
+    font-size: 17px;
+    color: blue;
+}
+.sponsor-txt {
+    display: block;
+    position: relative;
+    bottom: 45px;
+}
+.sponsor-txt h2 a {
+    font-size: 20px;
+}
+
+section .opinion img {
+    width: 95px;
+    height: 95px;
+}
