@@ -1,8 +1,3 @@
-
-body {
-   
-}
-
 main {
     margin-top: 5em;
     background-color: #f4f5f7;
@@ -63,4 +58,52 @@ main a:hover {
     width: 59.8px;
     font-size: 17px;
     text-align: center;
+}
+
+.debate-img {
+    width: 63px;
+    height: 63px;
+}
+
+.debate-border-pink {
+    border-bottom: 4px solid #f92859;
+}
+
+.debate-border-blue {
+    border-bottom: 4px solid #1c87fb;
+} 
+
+.debate-text{
+    font-size: 17px;
+    color: black;
+}
+
+.debate-text a {
+    color: black;
+}
+
+#pink-h:hover {
+    color: #f92859
+}
+
+.debate-text-p {
+    font-size: 14px;
+    color: black;
+}
+
+.vs:after {
+    border: 1px solid red;
+}
+.vs {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #d6d6d6;
+    background-color: black;
+    font-family: "Roboto Condensed", sans-serif;
 }
