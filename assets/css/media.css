@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  #a-login {
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  #subs-btn {
+    font-size: 15px;
+  }
+
+  #nav-menu {
+    font-size: 26px;
+  }
+}

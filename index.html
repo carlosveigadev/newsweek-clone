@@ -3,7 +3,8 @@
   <head>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
-    
+    <link rel="stylesheet" href="assets/css/media.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet"
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,15 +24,13 @@
         <nav class="navbar fixed-top navbar-expand-lg">
             <a class="navbar-brand mx-3" href=""><img src="assets/images/newsweek-logo.svg" alt="Newsweek Logo"></a>
             <div>
-              <a class="text-white-50 mx-1" href="#"><i class="fas fa-user"></i></a>
-              <button id="subs-btn"class="btn btn-warning btn-sm font-weight-bold" type="submit"><b>SUBSCRIBE</b></button>
-              <button class="navbar-toggler px-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <a class="text-white-50" href="#"><i class="fas fa-bars"></i></a>
-            </button>
+              <a class="text-white-50 mx-1 d-inline d-md-none d-lx-none mx-2" href="#"><i class="fas fa-user"></i></a>
+              <button id="a-login"class="btn btn-sm font-weight-bold text-white d-none d-md-inline d-lg-inline d-xl-inline" type="submit"><b>LOGIN</b></button>
+              <button id="subs-btn"class="btn btn-warning btn-sm" type="submit"><b>SUBSCRIBE ></b></button>
+              <button class="navbar-toggler align-middle px-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a id="nav-menu" class="text-white-50" href="#"><i class="fas fa-bars"></i></a>
+              </button>
             </div>
-                 
-           
-          
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -64,8 +63,19 @@
     
     </header>
          
-        <main>
-            <div>TopStory</div>
+        <main class="d-flex flex-column">
+          <section>
+            <div class=" px-3 cards border-bottom">
+            <h1>TOP STORY</h1>
+                <a class="test" href="">
+                  <img src="https://d.newsweek.com/en/full/1596690/minneapolis-police-officers-charged-george-floyd.jpg?w=591&h=364&f=3aac205621d3ec674d43ed3c05788fe0" alt="Cops involved in George Floyd murder image">
+                </a>
+              <a class="pos-div py-1 text-danger font-weight-bold" href="">U.S.</a>
+              <h2 id="h-title" class="font-weight-bold"><a id="h-title" href="">Prosecutors of George Floyd Cops Will Struggle to Get Four Convictions</a></h2>
+              <p class="small">Prosecutions of police officers are notoriously difficult to win. The accused officers' likely defense strategies are beginning to come into focus. "Cause of death" will be one important issue. A likely focus for the two most junior officers will be "chain of command."</p>
+            </div>
+          </section>
+          
             <div>FeaturedStories</div>
             <div>TheDebate</div>
             <div>Opinion</div>

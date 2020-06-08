@@ -1,4 +1,25 @@
 
+body {
+    background-color: #f4f5f7;
+}
+
+main {
+    margin-top: 5em;
+}
+
+main h1 {
+    font-size: 16px;
+    color: #a0a0a0;
+    font-weight: bold;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main a:hover {
+    text-decoration: none;
+}
 .navbar {
     background-color: red;
 }
@@ -10,4 +31,35 @@
 #subs-btn {
     font-size: 10px;
     background-color: yellow;
+    border-radius: 60px;
+}
+
+.cards {
+    min-width: 290px;
+    height: 100%;
+}
+
+.cards img {
+    width: 100%;
+    height: 100%;
+}
+
+#h-title {
+    color: black;
+    font-size: 22px;
+    margin-top: -1em;
+}
+
+#h-title:hover {
+    text-decoration: underline red;
+}
+
+.pos-div {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    position: relative;
+    bottom: 33px;
+    width: 59.8px;
+    font-size: 17px;
+    text-align: center;
 }
