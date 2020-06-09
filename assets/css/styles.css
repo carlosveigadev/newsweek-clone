@@ -148,16 +148,27 @@ section.opinion h4 {
     font-size: 17px;
     color: blue;
 }
+
 .sponsor-txt {
     display: block;
     position: relative;
     bottom: 45px;
 }
+
 .sponsor-txt h2 a {
     font-size: 20px;
 }
 
-section .opinion img {
+.opinion img {
     width: 95px;
     height: 95px;
+}
+
+.heroes {
+    width: fit-content;
+}
+
+.heroes a {
+    font-size: 13px;
+    color: #333342;
 }
