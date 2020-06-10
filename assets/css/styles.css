@@ -269,7 +269,35 @@ section.opinion h4 {
   font-size: 16px;
 }
 
+.news-section h2 a:hover,
 .itmag-cards a:hover {
   color: black;
   text-decoration: underline red;
+}
+
+.news-section h1 a{
+  color: rgb(247, 34, 16);
+  font-size: 22px;
+}
+
+.news-section h1 a:hover {
+  color: rgb(247, 34, 16);
+}
+
+.news-section h2,
+.news-section h2 a {
+  font-size: 18px;
+  color: black;
+  line-height: 18px;
+}
+
+.aside-news img {
+  width: 95px;
+  height: 95px;
+}
+
+.aside-news a {
+  font: bold 17px/21px "Roboto Condensed",sans-serif;
+  color: black;
+  text-decoration: none;
 }
