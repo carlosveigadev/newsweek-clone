@@ -346,9 +346,38 @@ section.opinion h4 {
   background: rgb(247, 34, 16);
   border-radius: 3px;
   height: 32px;
-  min-width: 248px;
   width: auto;
   line-height: 32px;
   margin-top: 8px;
   border: none;
 }
+
+footer div img {
+  width: 236px;
+}
+
+footer .icons a {
+  font-size: 26px;
+  color: #666666;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998
+}
+
+.fa-twitter:hover {
+  color:#1da1f2
+}
+
+.fa-instagram:hover {
+  color: #405de6
+}
+
+.fa-tumblr:hover {
+  color: #35465c;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
