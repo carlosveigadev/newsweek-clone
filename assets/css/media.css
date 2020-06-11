@@ -62,4 +62,20 @@
     width: auto;
     margin: 0;
   }
+
+  .subs-section h2 {
+    margin: 0;
+    color: black;
+    display: inline-block;
+    font-size: 26px;
+  }
+
+  .subs-section input,
+  .subs-section button {
+    width: 100%;
+  }
+
+  .btn-signup {
+    margin: 0;
+  }
 }
