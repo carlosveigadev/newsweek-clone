@@ -78,4 +78,19 @@
   .btn-signup {
     margin: 0;
   }
+
+  @media (min-width: 991px) {
+    .subs-section {
+      height: 300px;
+    }
+
+    .subs-section div div:nth-child(1) {
+      width: 300px;
+    }
+
+    .subs-section div div:nth-child(2),
+    .subs-section div div:nth-child(1) {
+      height: 300px;
+    }
+  }
 }
