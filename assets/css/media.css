@@ -15,4 +15,17 @@
   .opinion {
     border-bottom: 0 solid !important;
   }
+
+  .magazine-content {
+    min-height: 225px;
+  }
+
+  .in-the-mag {
+    max-width: 199px;
+  }
+
+  .in-the-mag img {
+    width: 100%;
+    min-width: 166px;
+  }
 }
