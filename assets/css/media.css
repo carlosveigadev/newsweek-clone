@@ -28,4 +28,8 @@
     width: 100%;
     min-width: 166px;
   }
+
+  .news-section {
+    min-width: auto;
+  }
 }
