@@ -384,3 +384,7 @@ footer .icons a {
   color: #0077b5;
 }
 
+.culture-travel div a img {
+  height: 130px;
+  width: 130px;
+}
