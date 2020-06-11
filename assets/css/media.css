@@ -11,4 +11,8 @@
   #nav-menu {
     font-size: 26px;
   }
+
+  .opinion {
+    border-bottom: 0 solid !important;
+  }
 }

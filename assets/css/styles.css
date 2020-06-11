@@ -85,8 +85,8 @@ main a:hover {
 }
 
 .debate-img {
-  width: 63px;
-  height: 63px;
+  max-width: 63px;
+  max-height: 63px;
 }
 
 .debate-border-pink {
@@ -172,6 +172,10 @@ section.opinion h4 {
 
 .sponsor-txt h2 a {
   font-size: 20px;
+}
+
+section {
+  box-shadow: 0 1px lightgray;
 }
 
 .opinion img {
@@ -307,6 +311,8 @@ section.opinion h4 {
 
 .images-mag {
   min-height: 400px ;
+  max-width: 343px;
+  margin: 0 auto;
 }
 
 .images-mag img {
@@ -387,4 +393,9 @@ footer .icons a {
 .culture-travel div a img {
   height: 130px;
   width: 130px;
+}
+
+.sponsor-c-2 {
+  max-width: 330px;
+  margin: 0 auto;
 }
