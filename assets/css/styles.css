@@ -13,6 +13,10 @@ main p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#subs-btn {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .debate-text a {
   color: black;
 }
@@ -46,12 +50,11 @@ main a:hover {
 
 .cards {
   min-width: 290px;
-  height: 100%;
 }
 
 .cards img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 #h-title {
