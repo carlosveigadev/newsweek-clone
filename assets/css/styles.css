@@ -399,3 +399,22 @@ footer .icons a {
   max-width: 330px;
   margin: 0 auto;
 }
+
+.subs-mag h2,
+.subs-mag p {
+  text-align: center;
+}
+
+.subs-mag h2 {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+.subs-mag p {
+  font-size: 1em;
+}
+
+.subs-mag button {
+  font-size: 1.2em;
+  width: auto;
+}

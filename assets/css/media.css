@@ -32,4 +32,22 @@
   .news-section {
     min-width: auto;
   }
+
+  .images-mag {
+    max-width: 100%;
+    min-height: 300px;
+  }
+  
+  .subs-mag {
+    margin: auto 0;
+  }
+
+  .subs-mag h2,
+  .subs-mag p {
+    text-align: start;
+  }
+
+  .subs-mag button {
+    margin: 0;
+  }
 }
