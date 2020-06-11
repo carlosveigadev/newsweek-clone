@@ -92,5 +92,9 @@
     .subs-section div div:nth-child(1) {
       height: 300px;
     }
+
+    .cards {
+      min-width: auto;
+    }
   }
 }

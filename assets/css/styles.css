@@ -413,3 +413,8 @@ footer .icons a {
   background-size: cover;
   width: 191px;
 }
+
+.culture-travel-block img {
+  min-width: 126px;
+  min-height: 126px;
+}
