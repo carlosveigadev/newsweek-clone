@@ -60,6 +60,10 @@ footer div img {
 }
 
 .navbar-brand img {
+  height: 60px;
+}
+
+.navbar-brand-2 img {
   height: 20px;
 }
 
@@ -469,7 +473,7 @@ footer .icons a {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#header-img {
+.header-img {
   height: 90px;
   width: 400px;
 }

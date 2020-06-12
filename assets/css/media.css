@@ -1,5 +1,6 @@
 @media (min-width: 768px) {
-  #a-login {
+  #a-login,
+  #a-login-2 {
     font-size: 18px;
     text-decoration: none;
   }
