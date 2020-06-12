@@ -102,5 +102,19 @@
     .cards {
       min-width: auto;
     }
+
+    .magazine-content {
+      min-height: 500px;
+    }
+
+    .sponsor-c-2 {
+      max-width: 100%;
+      margin: 0 1.5em;
+    }
+
+    .debate-img {
+      max-width: 63px;
+      max-height: 63px;
+    }
   }
 }
