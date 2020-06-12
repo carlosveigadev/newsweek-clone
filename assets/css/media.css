@@ -37,7 +37,7 @@
     max-width: 100%;
     min-height: 300px;
   }
-  
+
   .subs-mag {
     margin: auto 0;
   }
@@ -52,11 +52,11 @@
     line-height: 1em;
     text-align: start;
   }
-  
+
   .subs-mag p {
     font-size: 1em;
   }
-  
+
   .subs-mag button {
     font-size: 1.2em;
     width: auto;
@@ -80,10 +80,6 @@
   }
 
   @media (min-width: 991px) {
-    navbar {
-      position: relative;
-    }
-
     main {
       margin-top: 0;
     }
@@ -104,6 +100,5 @@
     .cards {
       min-width: auto;
     }
-
   }
 }
