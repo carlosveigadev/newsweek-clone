@@ -81,9 +81,13 @@
 
   @media (min-width: 991px) {
     navbar {
-      position: absolute;
+      position: relative;
     }
-    
+
+    main {
+      margin-top: 0;
+    }
+
     .subs-section {
       height: 300px;
     }
