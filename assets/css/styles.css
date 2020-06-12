@@ -20,6 +20,13 @@ main p {
   border-radius: 60px;
 }
 
+body main div div section section div h2,
+body main div div section section div h2 a {
+  color: black;
+  font-size: 22px;
+  margin-top: -1em;
+}
+
 .debate-text a {
   color: black;
 }
@@ -76,18 +83,63 @@ footer div img {
   height: auto;
 }
 
-#h-title {
-  color: black;
-  font-size: 22px;
-  margin-top: -1em;
-}
-
 .h-title-sponsor {
   color: black;
   font-size: 18px;
 }
 
-#h-title:hover,
+.sponsor-txt h2 a {
+  font-size: 20px;
+}
+
+.heroes-txt h2 {
+  font-size: 15px;
+  color: #333;
+}
+
+.heroes-txt h2 a {
+  font-size: 15px;
+  color: #333;
+}
+
+.news-section h1 a {
+  color: rgb(247, 34, 16);
+  font-size: 22px;
+}
+
+.news-section h2,
+.news-section h2 a {
+  font-size: 18px;
+  color: black;
+  line-height: 18px;
+}
+
+.subs-section h1 a {
+  color: rgb(247, 34, 16);
+  display: inline-block;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+footer .icons a {
+  font-size: 26px;
+  color: #666;
+}
+
+.subs-section h2 {
+  margin: 0 auto;
+  color: black;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.subs-mag h2,
+.subs-mag p {
+  text-align: center;
+}
+
+body main div div section section div h2:hover,
+body main div div section section div h2 a:hover,
 .h-title-sponsor:hover {
   color: black;
   text-decoration: underline red;
@@ -121,7 +173,8 @@ footer div img {
   color: black;
 }
 
-#text-debate:hover {
+.debate-text a:hover,
+.text-debate:hover {
   color: #f92859;
 }
 
@@ -189,10 +242,6 @@ section.opinion h4 {
   bottom: 45px;
 }
 
-.sponsor-txt h2 a {
-  font-size: 20px;
-}
-
 section {
   box-shadow: 0 1px lightgray;
 }
@@ -207,22 +256,12 @@ section {
   font-size: 13px;
   color: #333342;
   background-color: #c2d4d7;
-  bottom: 31px;
+  bottom: 20px;
 }
 
 .heroes-txt {
   position: relative;
   bottom: 32px;
-}
-
-.heroes-txt h2 {
-  font-size: 15px;
-  color: #333;
-}
-
-.heroes-txt h2 a {
-  font-size: 15px;
-  color: #333;
 }
 
 .n-logo {
@@ -295,30 +334,6 @@ section {
   font-size: 16px;
 }
 
-.news-section h1 a {
-  color: rgb(247, 34, 16);
-  font-size: 22px;
-}
-
-.news-section h2,
-.news-section h2 a {
-  font-size: 18px;
-  color: black;
-  line-height: 18px;
-}
-
-.subs-section h1 a {
-  color: rgb(247, 34, 16);
-  display: inline-block;
-  line-height: 28px;
-  margin-bottom: 15px;
-}
-
-footer .icons a {
-  font-size: 26px;
-  color: #666;
-}
-
 .itmag-cards a:hover,
 .news-section h2 a:hover {
   color: black;
@@ -371,13 +386,6 @@ footer .icons a {
   margin: 0 auto;
 }
 
-.subs-section h2 {
-  margin: 0 auto;
-  color: black;
-  display: inline-block;
-  font-size: 20px;
-}
-
 .subs-section button {
   color: white;
   background: rgb(247, 34, 16);
@@ -414,11 +422,6 @@ footer .icons a {
   margin: 0 auto;
 }
 
-.subs-mag h2,
-.subs-mag p {
-  text-align: center;
-}
-
 .newsl-image {
   background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
   height: 223px;
@@ -432,7 +435,8 @@ footer .icons a {
   height: 3000px;
 }
 
-#drop-nav {
+#drop-nav,
+#drop-nav-2 {
   font-family: "Roboto Condensed", sans-serif;
   border-radius: 0;
   left: initial;
