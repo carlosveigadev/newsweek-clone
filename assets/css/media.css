@@ -80,6 +80,10 @@
   }
 
   @media (min-width: 991px) {
+    navbar {
+      position: absolute;
+    }
+    
     .subs-section {
       height: 300px;
     }
@@ -96,5 +100,6 @@
     .cards {
       min-width: auto;
     }
+
   }
 }

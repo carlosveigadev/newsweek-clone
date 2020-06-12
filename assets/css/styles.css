@@ -1,5 +1,4 @@
 main {
-  margin-top: 5em;
   background-color: #f4f5f7;
 }
 
@@ -36,6 +35,7 @@ main a:hover {
 
 .navbar {
   background-color: red;
+  position: fixed;
 }
 
 .navbar-brand img {
@@ -455,3 +455,43 @@ footer .icons a {
   color:red
 }
 
+.weather {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#header-img {
+  height: 90px;
+  width: 400px;
+}
+
+.header-lg {
+  margin-bottom: -16px;
+  border-bottom: 1px solid red;
+}
+
+.header-lg ul {
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.header-lg li {
+  border-right: 1px solid lightgray;
+  padding-right: 10px;
+}
+
+.header-lg a {
+  color: black;
+  padding: 0 auto;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header-lg input {
+  width: 70px;
+  border: 0;
+}
+
+.header-lg li:nth-child(11) {
+  border-right: 0;
+}
