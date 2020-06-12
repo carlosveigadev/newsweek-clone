@@ -422,3 +422,36 @@ footer .icons a {
 .wrapper {
   height: 3000px;
 }
+
+#drop-nav {
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 0;
+  left: initial;
+  right: 0;
+  margin-top: 0;
+}
+
+#drop-nav input {
+  width: 80%;
+}
+
+#drop-nav div:not(:first-child):hover {
+  background-color: black;
+  color: red;
+}
+
+#drop-nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+#navbarDropdown {
+  color: red;
+  background-color: red;
+  border: 0 solid;
+}
+
+#navbarDropdown:hover {
+  color:red
+}
+

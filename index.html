@@ -21,44 +21,66 @@
   </head>
   <body>
       <header>
-        <nav class="navbar fixed-top navbar-expand-lg">
+        <nav class="navbar fixed-top row navbar-expand-lg">
             <a class="navbar-brand mx-1" href=""><img src="assets/images/newsweek-logo.svg" alt="Newsweek Logo"></a>
-            <div>
-              <a class="text-white-50 mx-1 d-inline d-md-none d-lx-none mx-2" href="#"><i class="fas fa-user"></i></a>
+            <div class="d-flex ml-auto">
+              <a class="text-white-50 mx-1 d-inline d-md-none d-lx-none my-2 mx-2" href="#"><i class="fas fa-user"></i></a>
               <button id="a-login"class="btn btn-sm font-weight-bold text-white d-none d-md-inline d-lg-inline d-xl-inline" type="submit"><b>LOGIN</b></button>
-              <button id="subs-btn"class="btn btn-warning btn-sm px-3" type="submit"><b>SUBSCRIBE ></b></button>
-              <button class="navbar-toggler align-middle px-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button id="subs-btn"class="btn btn-warning btn-sm my-2 px-3" type="submit"><b>SUBSCRIBE ></b></button>
+              <button class="nav-link align-middle px-2 d-lg-none" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <a id="nav-menu" class="text-white-50" href="#"><i class="fas fa-bars"></i></a>
               </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
+              <div id="drop-nav" class="dropdown-menu mx-0 py-0 w-50 pr-2" aria-labelledby="navbarDropdown">
+                <div class="d-flex">
+                  <input type="text" class="dropdown-item" placeholder="Search">
+                  <span class="py-1 justify-content-end ml-auto px-3"><i class="fas fa-search"></i></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>U.S.</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>World</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>Business</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>Tech & Science</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>Culture</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>Newsgeek</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>Sports</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>Health</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>The Debate</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>Vantage</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+                <div class="d-flex">
+                  <a class="dropdown-item" href="#"><b>Weather</b></a>
+                  <span class="py-1 px-3"><b>></b></span>
+                </div>
+              </div>
+            </div>  
           </nav>
         <main class="container-fluid px-0">
           <div class="row">
