@@ -112,5 +112,9 @@
       max-width: 63px;
       max-height: 63px;
     }
+
+    .border-footer li {
+      border-right: 1px solid lightgrey;
+    }
   }
 }
