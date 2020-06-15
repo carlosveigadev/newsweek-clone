@@ -5,17 +5,13 @@
     text-decoration: none;
   }
 
-  #subs-btn,
-  #subs-btn-2 {
+  nav .subs-btn,
+  nav .subs-btn-2 {
     font-size: 15px;
   }
 
-  #nav-menu {
+  nav .nav-menu {
     font-size: 26px;
-  }
-
-  .opinion {
-    border-bottom: 0 solid !important;
   }
 
   .magazine-content {
