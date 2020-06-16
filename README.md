@@ -1,6 +1,6 @@
-# Project Name
+# Newsweek Clone
 
-> One paragraph statement about the project.
+> This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,50 +8,22 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS,
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/wrakc/newsweek-clone/feature/index.html)
 
 
-## Getting Started
+## Author
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+👤 **Carlos Veiga**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/wrakc)
+- Twitter: [@twitterhandle](https://twitter.com/carlosveig)
+- Linkedin: [linkedin](https://linkedin.com/chveiga)
 
 ## 🤝 Contributing
 
@@ -65,9 +37,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks the minskins,
+- and Microverse for the opportunity.
 
 ## 📝 License
 

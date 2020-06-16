@@ -1,0 +1,125 @@
+@media (min-width: 768px) {
+  #a-login,
+  #a-login-2 {
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  nav .subs-btn,
+  nav .subs-btn-2 {
+    font-size: 15px;
+  }
+
+  nav .nav-menu {
+    font-size: 26px;
+  }
+
+  .magazine-content {
+    min-height: 225px;
+  }
+
+  .in-the-mag {
+    max-width: 199px;
+  }
+
+  .in-the-mag img {
+    width: 100%;
+    min-width: 166px;
+  }
+
+  .news-section {
+    min-width: auto;
+  }
+
+  .images-mag {
+    max-width: 100%;
+    min-height: 300px;
+  }
+
+  .subs-mag {
+    margin: auto 0;
+  }
+
+  .subs-mag h2,
+  .subs-mag p {
+    text-align: start;
+  }
+
+  .subs-mag h2 a {
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: start;
+  }
+
+  .subs-mag p {
+    font-size: 1em;
+  }
+
+  .subs-mag button {
+    font-size: 1.2em;
+    width: auto;
+    margin: 0;
+  }
+
+  .subs-section h2 {
+    margin: 0;
+    color: black;
+    display: inline-block;
+    font-size: 26px;
+  }
+
+  .subs-section input,
+  .subs-section button {
+    width: 100%;
+  }
+
+  .btn-signup {
+    margin: 0;
+  }
+
+  @media (min-width: 991px) {
+    main {
+      margin-top: 0;
+    }
+
+    .subs-section {
+      height: 300px;
+    }
+
+    .subs-section div div:nth-child(1) {
+      width: 300px;
+    }
+
+    .subs-section div div:nth-child(2),
+    .subs-section div div:nth-child(1) {
+      height: 300px;
+    }
+
+    .cards {
+      min-width: auto;
+    }
+
+    .magazine-content {
+      min-height: 500px;
+    }
+
+    .sponsor-c-2 {
+      max-width: 100%;
+      margin: 0 1.5em;
+    }
+
+    .debate-img {
+      max-width: 63px;
+      max-height: 63px;
+    }
+
+    .border-footer li {
+      border-right: 1px solid lightgrey;
+    }
+
+    .in-the-mag img {
+      height: 311px;
+      padding-top: 2em;
+    }
+  }
+}
