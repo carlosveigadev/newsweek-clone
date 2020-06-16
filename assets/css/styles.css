@@ -1,12 +1,13 @@
-html, body {
+html,
+body {
   max-width: 99%;
+
   /* overflow-x: hidden; */
 }
 
 main {
   margin-top: 5em;
   background-color: #f4f5f7;
-  
 }
 
 main h3 {
