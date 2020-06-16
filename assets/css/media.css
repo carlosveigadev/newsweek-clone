@@ -116,5 +116,10 @@
     .border-footer li {
       border-right: 1px solid lightgrey;
     }
+
+    .in-the-mag img {
+      height: 311px;
+      padding-top: 2em;
+    }
   }
 }
