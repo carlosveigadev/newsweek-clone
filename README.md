@@ -21,9 +21,9 @@ Additional description about the project and its features.
 
 👤 **Carlos Veiga**
 
-- Github: [@githubhandle](https://github.com/wrakc)
-- Twitter: [@twitterhandle](https://twitter.com/carlosveig)
-- Linkedin: [linkedin](https://linkedin.com/chveiga)
+- Github: [@githubhandle](https://github.com/carlosveigadev)
+- Twitter: [@twitterhandle](https://twitter.com/carlosveigadev)
+- Linkedin: [linkedin](https://linkedin.com/carlosveigadev)
 
 ## 🤝 Contributing
 
